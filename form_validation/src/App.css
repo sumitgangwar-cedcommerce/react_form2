@@ -1,0 +1,54 @@
+.App {
+  text-align: left;
+}
+#main{
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 1vw;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.flex-class{
+  display:flex;
+}
+input {
+  width: 90%;
+  height: 5vw;
+}
+textarea{
+  height:8vw;
+  width: 90%;
+}
+input[type="radio"]{
+  width:5%;
+  height:2vw;
+}
+.two-inp input{
+  width: 43.5%;
+  margin-right: 2%;
+}
+.flex-class p{
+  width:43.5%;
+  margin-right:3%;
+}
+
+button[type="submit"]{
+  border: none;
+  height:5vw;
+  width:100%;
+  background-color: blue;
+  color:white;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+@media screen and (max-width:822px){
+  #main{
+    width: 90%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+}
