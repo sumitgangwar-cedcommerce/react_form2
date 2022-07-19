@@ -16,58 +16,8 @@ function Form(){
 
     const submitHandler = (e) => {
         e.preventDefault();
-        let temp = 0;
-        // let fname = document.getElementById('fname').value;
-        // let lname = document.getElementById('lname').value;
-
-        // let dob = document.getElementById('dob').value;
-
       
-
-        // let siblings = document.getElementById('siblings').value;
-
-        // let f_fname = document.getElementsByClassName('f_fname').value;
-        // let f_lname = document.getElementsByClassName('f_lname').value;
-        // let f_quali = document.getElementsByClassName('f_quali').value;
-        // let f_num = document.getElementById('f_num').value;
-        // let f_email = document.getElementsByClassName('f_email').value;
-        // let f_occupation = document.getElementsByClassName('f_occupation').value;
-
-        // let m_fname = document.getElementsByClassName('m_fname').value;
-        // let m_lname = document.getElementsByClassName('m_lname').value;
-        // let m_quali = document.getElementsByClassName('m_quali').value;
-        // let m_num = document.getElementById('m_num').value;
-        // let m_email = document.getElementsByClassName('m_email').value;
-        // let m_occupation = document.getElementsByClassName('m_occupation').value;
-
-        // let address = document.getElementById('address').value;
-        // let gender = '';
-        // if(document.getElementById('male').checked) gender = 'male';
-        // else if(document.getElementById('female').checked)  gender = 'female';
-
-        // console.log(gender);
         
-        // if(
-        //     fname === '' ||
-        //     lname === '' ||
-        //     dob === '' ||
-        //     gender === '' ||
-        //     siblings === '' ||
-        //     f_fname === '' ||
-        //     f_lname === '' ||
-        //     f_quali === '' ||
-        //     f_occupation === '' ||
-        //     f_num === '' ||
-        //     f_email === '' ||
-        //     m_quali === '' ||
-        //     m_email === '' ||
-        //     m_fname === '' ||
-        //     m_lname === '' ||
-        //     m_num === '' ||
-        //     m_occupation === '' ||
-        //     address === ''
-        // )   temp = 0;
-        // else temp =1;
         if(counter) document.getElementById('res').innerHTML = '<h1 style="color:green">Successful</h1>'
         
     }
