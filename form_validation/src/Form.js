@@ -14,8 +14,9 @@ function Form(){
         setCounter(0);  
     }
 
-    const submitHandler = () => {
-        // let temp = 0;
+    const submitHandler = (e) => {
+        e.preventDefault();
+        let temp = 0;
         // let fname = document.getElementById('fname').value;
         // let lname = document.getElementById('lname').value;
 
@@ -85,7 +86,7 @@ function Form(){
     return (
       <div id="main">
           <div id='res'></div>
-          <form action='#'>
+          <form action='#' onSubmit={submitHandler}>
                 <h1>Student Registration form</h1>
 
                 <p>Name of the Applicant</p>
@@ -153,7 +154,7 @@ function Form(){
                 <p>Address</p>
                 <p><input onInvalid={notValid} required type='text' id='address' placeholder='Street Address'></input></p>
 
-                <button onInvalid={notValid} required type='submit' onClick={submitHandler}>Submit</button>
+                <button onInvalid={notValid} required type='submit'>Submit</button>
             </form>
             
 
