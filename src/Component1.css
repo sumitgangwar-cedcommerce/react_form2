@@ -1,0 +1,224 @@
+#component1{
+    width:100%;
+}
+#expense{
+    width:70%;
+    text-align:left;
+    margin-left:5%;
+   
+}
+span{
+    width:20%;
+}
+p{
+    width:80%;
+   display:flex;
+   justify-content: space-between;
+}
+li{
+    list-style: none;
+    margin-left:17%;
+}
+.editbtn{
+    width:5vw;
+    min-width:10%;
+    min-height:3vw;
+    color:white;
+    background-color:#434542;
+    border:none;
+    outline:none;
+    border-radius:5px;
+    font-size:1.5vw;
+    cursor:pointer;
+   
+}
+.deletebtn{
+    width:5vw;
+    min-width:10%;
+    min-height:3vw;
+    color:white;
+    background-color:#94132b;
+    border:none;
+    outline:none;
+    border-radius:5px;
+    font-size:1.5vw;
+    cursor:pointer;
+   
+}
+#income{
+    width:70%;
+    text-align:left;
+    margin-left:5%;
+    margin-top:10%;
+}
+#h3expense{
+   
+   text-align:left;
+   color:#3d4c70;
+   font-size:2vw;
+}
+input[type=text]{
+    width:10vw;
+    border:1px solid grey;
+    min-height:3vw;
+    font-size:1.5vw;
+    border-radius:5px;
+}
+input[type=number]{
+    width:10vw;
+    border:1px solid grey;
+    min-height:3vw;
+    font-size:1.5vw;
+    border-radius:5px;
+}
+
+input[type=button]{
+    width:7vw;
+    min-width:10%;
+    min-height:3vw;
+    color:white;
+    background-color:#4287f5;
+    border:none;
+    outline:none;
+    border-radius:5px;
+    font-size:1.5vw;
+    cursor:pointer;
+}
+input[type=submit]{
+    width:20vw;
+    margin-top:3%;
+    min-width:10%;
+    min-height:3vw;
+    color:white;
+    background-color:#4287f5;
+    border:none;
+    outline:none;
+    border-radius:5px;
+    font-size:1.5vw;
+    cursor:pointer;
+}
+input[type=button]:hover{
+    color:white;
+    background-color:#3d7052;
+}
+td{
+    font-size:1.5vw;
+}
+#h3income{
+    text-align:left;
+    color:#3d4c70;
+    font-size:2vw;
+}
+@media only screen and (max-width: 600px){
+    #component1{
+       
+        width:100%;
+    }
+    #expense{
+        width:100%;
+        text-align:left;
+        margin-left:5%;
+        
+       
+    }
+    #overall{
+        margin-right: -10vw;
+        float:"right";
+        /* marginRight:"-5vw" */
+    }
+    p{
+       width:100%;
+       display:flex;
+       justify-content: space-between;
+    }
+    li{
+        list-style: none;
+        margin-left:17%;
+    }
+    .editbtn{
+        width:8vw;
+        min-width:10%;
+        min-height:6vw;
+        color:white;
+        background-color:#434542;
+        border:none;
+        outline:none;
+        border-radius:5px;
+        font-size:3.5vw;
+        cursor:pointer;
+       
+    }
+    .deletebtn{
+        width:14vw;
+        min-width:10%;
+        min-height:6vw;
+        color:white;
+        background-color:#94132b;
+        border:none;
+        outline:none;
+        border-radius:5px;
+        font-size:3.5vw;
+        cursor:pointer;
+       
+    }
+ 
+    #income{
+        width:80%;
+        text-align:left;
+        margin-left:5%;
+    }
+    #h3expense{
+       text-align:center;
+       color:#3d4c70;
+       font-size:6vw;
+    }
+    #h3income{
+        text-align:center;
+        color:#3d4c70;
+        font-size:6vw;
+    }
+    input[type=text]{
+        width:20vw;
+        border:1px solid grey;
+        min-height:6vw;
+        font-size:3.5vw;
+        border-radius:5px;
+    }
+    input[type=number]{
+        width:20vw;
+        border:1px solid grey;
+        min-height:6vw;
+        font-size:3.5vw;
+        border-radius:5px;
+    }
+    input[type=button]{
+        width:10vw;
+        min-width:10%;
+        min-height:6vw;
+        color:white;
+        background-color:#4287f5;
+        border:none;
+        outline:none;
+        border-radius:5px;
+        font-size:4vw;
+        cursor:pointer;
+    }
+    input[type=submit]{
+        width:40vw;
+        margin-top:3%;
+        min-width:10%;
+        min-height:6vw;
+        color:white;
+        background-color:#4287f5;
+        border:none;
+        outline:none;
+        border-radius:5px;
+        font-size:4vw;
+        cursor:pointer;
+    }
+    input[type=button]:hover{
+        color:white;
+        background-color:#3d7052;
+    }
+   
+}
